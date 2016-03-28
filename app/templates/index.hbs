@@ -1,0 +1,20 @@
+<h1> Welcome to the world of Toasty </h1>
+
+<h2>Behold the browers of toasty!</h2>
+
+<ul>
+  {{#each model as |brother|}}
+  <h3>{{brother-tile brother=brother destroyBrother="destroyBrother"}}</h3>
+  {{/each}}
+</ul>
+
+{{new-brother save2="save3"}}
+
+
+{{#link-to 'about'}}About{{/link-to}}
+---
+{{#link-to 'context'}}More context!{{/link-to}}
+---
+{{#link-to 'battle'}} MORTAL KOMBAT!!!{{/link-to}}
+
+{{outlet}}

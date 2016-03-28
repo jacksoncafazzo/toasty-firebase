@@ -1,0 +1,8 @@
+<li>{{brother.owner}}'s {{brother.type}} in {{brother.city}} Total HP {{brother.hp}}
+  {{#if isImageShowing }}
+       <p><img src={{brother.image}} alt={{brother.type}} {{action "imageHide"}}></p>
+     {{else}}
+       <button {{action 'imageShow'}}>Show image</button>
+    {{/if}}
+    <button {{action 'delete' brother}}>Delete</button>
+</li>

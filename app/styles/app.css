@@ -1,0 +1,20 @@
+.ember-view {
+  text-align: center;
+}
+
+.ember-view img {
+  width: 100px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #E42802;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FE7200;
+}
